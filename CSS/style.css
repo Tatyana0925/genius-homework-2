@@ -1,0 +1,176 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v21-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v21-latin-700.woff2') format('woff2');
+}
+
+:root {
+    --color-primary-dark: #011c44;
+    --color-primary-ligth: #FFFFFF;
+    --color-brand: #2B7FFF;
+}
+
+/*Base*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-primary-dark);
+    font-family: Roboto, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*Button*/
+.button {
+    padding: 16px 32px;
+    color: var(--color-primary-ligth);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: var(--color-brand);
+    border-radius: 27px;
+    border: 2px solid var(--color-brand);
+}
+
+/*Link*/
+.link:hover {
+    color: var(--color-brand);
+}
+
+.link {
+    color: var(--color-primary-dark);
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.link span {
+    color: var(--color-brand);
+}
+
+/*hero-section*/
+.hero-section {
+    padding: 115.52px 289px 66.48px 122px;
+}
+
+.hero-title {
+    color: var(--color-brand);
+    font-family: Play, sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.81;
+}
+
+.hero-title .accent {
+    color: var(--color-brand);
+}
+
+.about-our {
+    padding: 194.48px 631px 88px 100px;
+}
+
+.section-title {
+    color: var(--color-primary-dark);
+    font-family: Play, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section-titlebz {
+   margin-bottom: 40px;
+}
+
+.section-title .accent {
+    color: var(--color-brand);
+    text-transform: capitalize;
+}
+
+.section-titlewpc {
+    margin-bottom: 48px;
+}
+
+/*Guarantees*/
+.why-we {
+    padding: 88px 190px 48px 190px;
+}
+
+.guarantees-text {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.guarantees-text span {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+/*Advantages*/
+.advantages {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/*Procedures*/
+.procedures {
+    padding: 48px 78px;
+}
+
+.procedure {
+    color: var(--color-primary-ligth);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+/*Footer*/
+.contacts {
+    padding: 48px 93px 48px 64px;
+}
+
+.footer-link {
+    color: var(--color-primary-ligth);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.adress-link {
+    color: var(--color-primary-ligth);
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.adress-copyrigth {
+    color: #747272;
+    font-weight: 400;
+    font-size: 13px;
+}
