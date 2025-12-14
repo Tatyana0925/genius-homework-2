@@ -42,18 +42,250 @@ address {
 }
 
 ul {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
+.container-list {
+    width: 100%;
+    max-width: 1488px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.foters {
+    background-color: var(--color-primary-dark);
+    height: 258px;
+    background-image: url('../images/buttels.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.container-nav {
+    padding: 32px 102px 32px 99px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.header-nav {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 56px;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-shapka {
+    display: flex;
+    flex-direction: column;
+    max-width: 529px;
+    padding: 0;
+}
+
+.item1 {
+    margin-bottom: 16px;
+}
+
+.item2 {
+    max-width: 529px;
+}
+
+.item3 {
+    max-width: 238px;
+    gap: 10px;
+}
+
+.item4 {
+    max-width: 238px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.conteiner-garant {
+    display: flex;
+    width: 100%;
+    max-width: 1272px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.ad-garant {
+    min-width: 709px;
+    padding-right: 32px;
+}
+
+.icon-rezultat {
+    min-width: 499px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imag1 {
+    text-align: left;
+}
+
+.imag2 {
+    text-align: end;
+}
+
+.container {
+    width: 100%;
+    max-width: 1088px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+}
+
+.Hs-containers {
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-container {
+    padding: 24px 32px;
+    text-align: center;
+    min-width: 252px;
+}
+
+.why-containers {
+    border-radius: 32px;
+    max-width: 316px;
+    height: 181px;
+}
+
+.container-procedur {
+    width: 100%;
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.procedure-containers {
+    min-width: 510px;
+    display: flex;
+    margin-bottom: 24px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.three-containers {
+    display: flex;
+    max-width: 1096px;
+    height: 456px;
+    gap: 16px;
+    margin: 0 auto;
+    justify-content: center;
+    background-image: linear-gradient(180deg, rgba(1, 28, 68, 0) 47.4%, rgba(1, 28, 68, 0.73) 82.66%, #011c44 99.06%);
+}
+
+.procedure {
+    padding: 372px 77px 32px 115px;
+    width: 344px;
+    height: 456px;
+    text-align: center;
+}
+
+.container-contact {
+    width: 100%;
+    max-width: 1091px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.map-anketa-cotainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.styled-iframe {
+    border-radius: 32px;
+}
+
+.anketa {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary-dark);
+    min-width: 423px;
+    height: 481px;
+    border-radius: 32px;
+    margin-left: 32px;
+    justify-content: center;
+}
+
+.anketa-general {
+    display: flex;
+    flex-direction: column;
+    height: 481px;
+    margin: 0 auto;
+    padding: 48px 0;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text-contact {
+    color: var(--color-primary-ligth);
+}
+
+.text-contaner {
+    display: flex;
+    border-width: 2px;
+    border-radius: 32px;
+    border-style: solid;
+    border-color: #747272;
+    padding-top: 16px;
+    margin-bottom: 16px;
+    justify-content: center;
+    height: 52px;
+    width: 310px;
+    background-color: var(--color-primary-dark);
+}
+
+.container-foter-general {
+    padding: 56px 101px 56px 100px;
+    display: flex;
+    gap: 156px;
+    justify-content: center;
+    line-height: 1.6;
+}
+
 /*Button*/
-.button {
+.button1 {
+    font-family: inherit;
     padding: 16px 32px;
+    color: var(--color-primary-ligth);
+    font-weight: 600;
+    font-size: 18px;
+    background-color: var(--color-brand);
+    border-radius: 32px;
+    border: 2px solid var(--color-brand);
+    margin-bottom: 14px;
+    height: 53px;
+}
+
+.button2 {
+    font-family: inherit;
     color: var(--color-primary-ligth);
     font-weight: 600;
     font-size: 18px;
     background-color: var(--color-brand);
     border-radius: 27px;
     border: 2px solid var(--color-brand);
+    width: 281px;
+    height: 53px;
+    margin: 0 14.5px 6px;
 }
 
 /*Link*/
@@ -74,7 +306,10 @@ ul {
 
 /*hero-section*/
 .hero-section {
-    padding: 115.52px 289px 66.48px 122px;
+    padding: 16.52px 706px 126.48px 205px;
+    background-image: url('../images/doctor-and-procedure.jpg');
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 
 .hero-title {
@@ -84,6 +319,7 @@ ul {
     font-weight: 700;
     font-size: 140px;
     line-height: 0.81;
+    margin-bottom: 40px;
 }
 
 .hero-title .accent {
@@ -91,7 +327,7 @@ ul {
 }
 
 .about-our {
-    padding: 194.48px 631px 88px 100px;
+    padding-bottom: 48px;
 }
 
 .section-title {
@@ -99,11 +335,20 @@ ul {
     font-family: Play, sans-serif;
     font-size: 64px;
     font-weight: 700;
+    text-align: left;
+}
+
+.section-titlewpc {
+    padding: 48px 0 48px 0;
+}
+
+.section-titl {
     text-align: center;
 }
 
 .section-titlebz {
-   margin-bottom: 40px;
+    margin-bottom: 40px;
+    max-width: 529px;
 }
 
 .section-title .accent {
@@ -111,14 +356,7 @@ ul {
     text-transform: capitalize;
 }
 
-.section-titlewpc {
-    margin-bottom: 48px;
-}
-
 /*Guarantees*/
-.why-we {
-    padding: 88px 190px 48px 190px;
-}
 
 .guarantees-text {
     font-weight: 400;
@@ -139,20 +377,28 @@ ul {
 }
 
 /*Procedures*/
-.procedures {
-    padding: 48px 78px;
+.section-procedures {
+    padding: 48px 0;
 }
 
 .procedure {
-    color: var(--color-primary-ligth);
+    color: var(--color-brand);
     font-weight: 400;
     font-size: 22px;
     line-height: 1.2;
 }
 
 /*Footer*/
-.contacts {
-    padding: 48px 93px 48px 64px;
+/*.footer {
+    background-image: url('../images/buttels.jpg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}*/
+
+.foter-section {
+    display: flex;
+    width: 203px;
+    margin: 0 auto;
 }
 
 .footer-link {
@@ -164,8 +410,6 @@ ul {
 
 .adress-link {
     color: var(--color-primary-ligth);
-    font-weight: 400;
-    font-size: 16px;
     text-decoration: none;
 }
 
